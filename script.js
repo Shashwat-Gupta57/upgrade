@@ -1079,12 +1079,46 @@ function showGifPopup(popup) {
     
     // Show popup
     const overlay = document.getElementById('gifPopupOverlay');
-    const image = document.getElementById('gifPopupImage');
+    const imageContainer = document.getElementById('gifPopupImage');
     const text = document.getElementById('gifPopupText');
     
-    if (!overlay || !image || !text) return;
+    if (!overlay || !imageContainer || !text) return;
     
-    image.src = popup.gif;
+    // Clear previous content
+    imageContainer.innerHTML = '';
+    
+    // Check if it's a Tenor embed or regular GIF
+    if (popup.tenorEmbed) {
+        // Create Tenor embed
+        const tenorDiv = document.createElement('div');
+        tenorDiv.className = 'tenor-gif-embed';
+        tenorDiv.setAttribute('data-postid', popup.tenorEmbed.postid);
+        tenorDiv.setAttribute('data-share-method', 'host');
+        tenorDiv.setAttribute('data-aspect-ratio', popup.tenorEmbed.aspectRatio);
+        tenorDiv.setAttribute('data-width', '100%');
+        imageContainer.appendChild(tenorDiv);
+        
+        // Load Tenor embed script
+        if (!document.querySelector('script[src="https://tenor.com/embed.js"]')) {
+            const script = document.createElement('script');
+            script.type = 'text/javascript';
+            script.async = true;
+            script.src = 'https://tenor.com/embed.js';
+            document.body.appendChild(script);
+        } else {
+            // Re-trigger Tenor embed parsing
+            if (window.tenor && window.tenor.embedInit) {
+                window.tenor.embedInit();
+            }
+        }
+    } else if (popup.gif) {
+        // Regular GIF URL
+        const img = document.createElement('img');
+        img.src = popup.gif;
+        img.alt = 'Popup GIF';
+        imageContainer.appendChild(img);
+    }
+    
     text.textContent = popup.text;
     overlay.classList.add('active');
     
