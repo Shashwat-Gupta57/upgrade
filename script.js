@@ -25,6 +25,7 @@ const firebaseConfig = {
 let database = null;
 let sessionId = null;
 let sessionRef = null;
+let journeyPath = []; // Track full journey path
 
 // ========================================
 // SESSION TRACKING SYSTEM
@@ -33,8 +34,28 @@ function getISTTimestamp() {
     return new Date().toLocaleString("en-IN", {
         timeZone: "Asia/Kolkata",
         dateStyle: "long",
-        timeStyle: "short"
+        timeStyle: "medium" // Includes seconds
     });
+}
+
+function addToJourney(buttonText, actionType) {
+    const step = {
+        step: journeyPath.length + 1,
+        action: actionType,
+        button_text: buttonText,
+        timestamp: getISTTimestamp()
+    };
+    journeyPath.push(step);
+    
+    // Update Firebase with the full journey
+    if (sessionRef) {
+        sessionRef.update({
+            journey_path: journeyPath,
+            total_steps: journeyPath.length
+        }).catch(err => console.error('Journey update error:', err));
+    }
+    
+    console.log(`Journey Step ${step.step}: ${actionType} - "${buttonText}"`);
 }
 
 function generateSessionId() {
@@ -741,6 +762,9 @@ function handleYesClick(buttonText = 'Initial YES Button') {
     
     if (!overlay || !appData?.yesResponse) return;
     
+    // Add to journey path
+    addToJourney(buttonText, 'YES_CLICK');
+    
     // Track phase 1: Initial YES click
     initialYesButton = buttonText;
     sessionRef?.update({
@@ -871,6 +895,9 @@ function handleNoClick(button) {
     
     if (!overlay || !appData?.termsAndConditions) return;
     
+    // Add to journey path
+    addToJourney(button?.text || 'Unknown NO Button', 'NO_CLICK');
+    
     overlay.classList.add('active');
     termsContent.style.display = 'block';
     reassuranceContent.style.display = 'none';
@@ -909,8 +936,9 @@ function handleNoClick(button) {
     
     denyBtn.onclick = () => {
         // Denying terms = saying YES!
+        addToJourney('I Deny These Terms! (This means YES)', 'DENY_TERMS_YES');
         overlay.classList.remove('active');
-        handleYesClick();
+        handleYesClick('I Deny These Terms! (This means YES)');
     };
 }
 
