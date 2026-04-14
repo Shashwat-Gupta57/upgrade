@@ -1,0 +1,281 @@
+{
+  "letter": {
+    "content": "<p>I wanted to write this properly, not as a text that gets buried in chat history, but as something you can come back to whenever you need a reminder.</p><p>First things first — yes, you never gave me a handshake or a hug. And honestly? That's completely okay. I know you have your boundaries, your comfort zones, and I respect that more than you'll ever know. I've never once held it against you, and I never will. Everyone expresses care differently, and the way you've shown me you care has meant more than any physical gesture ever could.</p><p>I don't know when it happened exactly. There wasn't a single moment where I thought \"oh, this is it.\" It was gradual. It was in the way our conversations became the highlight of my day. It was in how \"I love you\" became a daily thing — something I started looking forward to, something that made my entire day better every single time.</p><p>You became special to me in the quietest way. No grand realization, no dramatic turning point. Just... one day I woke up and realized that you were the person I wanted to tell everything to. The good days, the bad days, the absolutely meaningless nonsense that nobody else would care about. All of it. You were the first person I thought of when something happened, and the person I wanted to share every moment with.</p><p>Our bond confuses me sometimes. We talk daily, we share everything, we say \"I love you\" like it's the most natural thing in the world. It already feels like more than friendship — it feels like we've been building something without even realizing it. Something that makes this whole \"proposal\" feel less like a question and more like... making things official. Paperwork, as I like to tease.</p><p>You matter to me, Apoorva. Not in a casual way, not in a \"you're my friend and that's nice\" way. You matter in a way that makes me want to be better, to show up for you, to be the person you deserve. Whether that's as your best friend, your boyfriend, or something in between — I'll take whatever you're willing to give me. Because having you in my life is non-negotiable at this point.</p><p>So here's to whatever comes next. Whatever you decide, whoever you want me to be — I'm here. Not going anywhere. Can't get rid of me even if you tried.</p><p class=\"italic\">Thank you for being you. Thank you for being in my life. Thank you for being... well, mine in whatever way makes sense to you.</p>"
+  },
+  "rejectButtons": [
+    {
+      "id": 1,
+      "text": "Let me think about it...",
+      "emoji": "🤔"
+    },
+    {
+      "id": 2,
+      "text": "I need more time",
+      "emoji": "⏰"
+    },
+    {
+      "id": 3,
+      "text": "We're better as friends",
+      "emoji": "💔"
+    },
+    {
+      "id": 4,
+      "text": "This is too sudden!",
+      "emoji": "😱"
+    },
+    {
+      "id": 5,
+      "text": "Maybe in another life",
+      "emoji": "🌙"
+    },
+    {
+      "id": 6,
+      "text": "You're like a sibling to me",
+      "emoji": "👬"
+    },
+    {
+      "id": 7,
+      "text": "I'm not ready for this",
+      "emoji": "😰"
+    },
+    {
+      "id": 8,
+      "text": "Let's stay as we are",
+      "emoji": "🤝"
+    }
+  ],
+  "termsAndConditions": {
+    "title": "Terms & Conditions of Rejection",
+    "content": [
+      "By rejecting Shashwat's proposal, you acknowledge that:",
+      "",
+      "1. You are willingly choosing to remain in the 'Best Friend Zone'™ indefinitely. This is a binding contract of eternal friendship whether you like it or not.",
+      "",
+      "2. Shashwat reserves the right to bring this up in future conversations (with love, and probably at 2 AM when you're trying to sleep).",
+      "",
+      "3. You understand that you're passing up on unlimited bad jokes, late-night rants, someone who actually listens, and genuine affection. Your loss, honestly.",
+      "",
+      "4. You agree that Shashwat will still care about you excessively. This clause is non-negotiable. No refunds on care and concern.",
+      "",
+      "5. This rejection does not void any existing friendship privileges. You're stuck with me. That was always the deal.",
+      "",
+      "6. You acknowledge that Shashwat's heart may need recovery time. Please be gentle. He's dramatic but sincere.",
+      "",
+      "7. Future reconsideration is always welcome. This offer has no expiration date. Seriously. Take your time.",
+      "",
+      "8. Most importantly: This changes nothing about how much you matter to him. You were special before this, you'll be special after this.",
+      "",
+      "By clicking 'I Accept', you confirm that you've read and understood these terms while knowing that Shashwat will always be there for you, no matter what. 💙"
+    ],
+    "acceptButtonText": "I Accept (With Love)"
+  },
+  "noResponse": {
+    "reassuranceTitle": "Hey, It's Okay. Really.",
+    "reassuranceMessage": "I want you to know something important. This doesn't change anything between us. Not one bit. You're still my favorite person to talk to, my go-to for random thoughts at 2 AM, and the person I want to share everything with. I value our friendship more than any label could define. We're good. Better than good. We're us, and that's pretty great.",
+    "finalParagraph": "Listen, Apoorva. The fact that you took the time to go through this entire ridiculous website says something. Whether we're best friends, something more, or just two people who somehow found each other in this chaotic world—you're stuck with me. I love you. As a friend, as a person, in whatever capacity you'll have me. That doesn't change. That won't change. You've become such an important part of my life that one answer on a website could never define us. You're the person I want to tell about my day. The person whose messages make me smile. The person who somehow makes everything better just by existing. So no pressure. No expectations. Just know that I'm always in your corner. Always. Now go live your amazing life, and know that somewhere out there, there's an idiot who thinks you're the best thing since sliced bread. 🌟"
+  },
+  "yesResponse": {
+    "doubtTitle": "Wait... Hold On A Second.",
+    "doubtMessage": "Are you actually sober right now? Did someone force you? Are you feeling okay? Did I just hallucinate that? This seems too good to be true... You do realize what you're agreeing to, right? Bad jokes, late-night conversations, someone who will annoy you with care and attention?",
+    "improveOptions": [
+      {
+        "id": "upgrade1",
+        "text": "Yes, I'm 100% sure!",
+        "emoji": "💯"
+      },
+      {
+        "id": "upgrade2",
+        "text": "YES!!! Forever and always!",
+        "emoji": "💖"
+      },
+      {
+        "id": "upgrade3",
+        "text": "Stop doubting and kiss me already!",
+        "emoji": "😘"
+      }
+    ],
+    "celebrationTitle": "Finally. Took You Long Enough.",
+    "celebrationMessage": "I've been waiting for this moment. No pressure, but I've been mentally planning this for way too long. Now... send me that photo I wanted 😋",
+    "finalNote": "P.S. - You just made me the happiest person alive. No big deal. Just wanted you to know. 💕"
+  },
+  "memoryLane": {
+    "texts": [
+      "You never even gave me a handshake...",
+      "Still somehow became my favorite human",
+      "Suspicious behavior honestly",
+      "Then you started saying 'I love you' every day",
+      "You made it so obvious, you know that right?",
+      "We basically act like a couple already",
+      "This is just paperwork now",
+      "My favorite notification is still your name on my screen",
+      "Somewhere along the way, you became irreplaceable",
+      "I don't know how it happened, but I'm glad it did"
+    ]
+  },
+  "funSection": {
+    "sarcasticLines": [
+      "We already act like a couple — this is just making it official",
+      "This is literally just paperwork at this point",
+      "Your parents probably like me more than you do",
+      "We've basically been dating without the title",
+      "I know your coffee order better than you do",
+      "You laugh at my jokes — that's basically a marriage contract",
+      "We talk every day — that's more than most married couples",
+      "You're already my emergency contact in my heart",
+      "I've seen you at your worst and stayed — that's commitment",
+      "At this point, the universe is just waiting for us to make it official"
+    ]
+  },
+  "emotionalSection": {
+    "title": "Real Talk...",
+    "paragraphs": [
+      "I need you to know that this isn't some random impulse. I've thought about this. A lot. Probably more than is healthy. But when you know, you know. And I know.",
+      "You became special to me in the quietest way. No grand moment, no dramatic realization — just one day I woke up and realized you were the person I wanted to tell everything to. The good, the bad, the absolutely meaningless nonsense. All of it."
+    ],
+    "messages": [
+      "I love your company more than anyone else's — and I actually like being alone, so that's saying something",
+      "The way you say 'I love you' daily hits different — every single time, without fail",
+      "You've already made it obvious how you feel — even if you don't see it yourself",
+      "Every moment with you feels like home — cheesy, but true",
+      "I don't want anyone else by my side — you've ruined me for everyone else honestly",
+      "You're the first person I want to share good news with",
+      "And somehow also the person I trust with my worst days",
+      "That's not nothing. That's everything."
+    ],
+    "handshakeNote": "Also, it's okay that you never gave me a handshake or hug… I'll wait. For however long it takes. You're worth waiting for."
+  },
+  "gifPopups": {
+    "maxPopups": 7,
+    "minInterval": 10000,
+    "popups": [
+      {
+        "id": "early",
+        "trigger": "scroll",
+        "scrollPercent": 15,
+        "gif": "https://tenor.com/5obTqYtt8.gif",
+        "text": "This is you reading this right now na? 🥰"
+      },
+      {
+        "id": "memory",
+        "trigger": "section",
+        "section": "memoryLane",
+        "gif": "https://tenor.com/LJQp.gif",
+        "text": "You definitely told your friends about me like this… didn't you? 😏"
+      },
+      {
+        "id": "fun",
+        "trigger": "section",
+        "section": "funSection",
+        "gif": "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExeWtpdXpsdWVwMzZjcGo0ODNyZGZ4cWs3c3hjeDBvMjZ5N3lwcWgyMSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/Oa9hTEQIlDtIlOXJXs/giphy.gif",
+        "text": "This is your reaction when you read my messages right? 😘"
+      },
+      {
+        "id": "midEmotional",
+        "trigger": "scroll",
+        "scrollPercent": 50,
+        "gif": "https://tenor.com/k16DrieRv4F.gif",
+        "text": "Just in case you forgot… I love you 🫶🥰"
+      },
+      {
+        "id": "buildup",
+        "trigger": "section",
+        "section": "buildupSection",
+        "gif": "https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3eGRyODA3ZDU4OWtzZ3FrMnYxZzIweDZmYnlpdWdmcmVibm0yNnh0NCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/AxE15cn1hNrGeF0cYh/giphy.gif",
+        "text": "So… when are we going on our first official date? 😌"
+      },
+      {
+        "id": "final",
+        "trigger": "section",
+        "section": "decisionSection",
+        "gif": "https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3MG55OGJoeHd5Y3B0bHRpaGQ1cmo5OWR4MWhkeDFxeDd5d3FmaTA1OCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/ANjMpBvC9LeRUopsoU/giphy.gif",
+        "text": "Sending you unlimited kisses before you answer 😘😘😘"
+      },
+      {
+        "id": "afterYes",
+        "trigger": "event",
+        "event": "yesClick",
+        "gif": "https://tenor.com/oBju7yTwL2p.gif",
+        "text": "Finally… now come here 🫶🥰"
+      }
+    ]
+  },
+  "popups": {
+    "floatingMessages": [
+      "You know you like me 😏",
+      "This is getting serious now...",
+      "Still scrolling instead of saying yes?",
+      "I see you reading everything 👀",
+      "Take your time... I'll wait",
+      "Your heart knows the answer",
+      "Don't overthink it 💕",
+      "Spoiler: The answer is yes",
+      "I'm worth it, just saying",
+      "You're smiling right now, aren't you?"
+    ],
+    "fullscreenPopups": [
+      "Hey. Just wanted to remind you that you're special.",
+      "Take a breath. This isn't pressure. It's a choice.",
+      "Whatever you decide, I'm still here. Always.",
+      "You've been on my mind. Just thought you should know."
+    ],
+    "interruptMoments": [
+      "Wait... read this slowly...",
+      "Pause for a second...",
+      "Before you scroll past this..."
+    ],
+    "fakeAlerts": [
+      {
+        "title": "System Analysis",
+        "message": "Analyzing Apoorva's feelings...",
+        "result": "Result: Already emotionally attached ✅"
+      },
+      {
+        "title": "Heart Monitor",
+        "message": "Detecting heartbeat patterns...",
+        "result": "Status: Racing when Shashwat's name appears 💓"
+      },
+      {
+        "title": "Compatibility Check",
+        "message": "Processing compatibility data...",
+        "result": "Match: 99.9% (The 0.1% is you being stubborn 😏)"
+      }
+    ]
+  },
+  "whySayYes": {
+    "title": "Why You Should Honestly Just Say Yes",
+    "subtitle": "A completely unbiased list of reasons:",
+    "reasons": [
+      {
+        "icon": "🎯",
+        "title": "I already treat you like a priority",
+        "description": "Your messages get answered first. Your problems become my problems. Your happiness is literally on my to-do list."
+      },
+      {
+        "icon": "👂",
+        "title": "I will always listen to your nonsense",
+        "description": "Even the dangerous ones. Even the 2 AM rants about things that don't matter. I'm invested in every random thought you have."
+      },
+      {
+        "icon": "🔔",
+        "title": "You are already my favorite notification",
+        "description": "When my phone buzzes, I hope it's you. Every single time. You're the highlight of my day, every day."
+      },
+      {
+        "icon": "⚓",
+        "title": "I am not going anywhere",
+        "description": "Through good days, bad days, and 'I don't want to talk to anyone' days. I'm here. Unshakeable. Annoyingly persistent."
+      },
+      {
+        "icon": "🤡",
+        "title": "I'll still annoy you, but now with love",
+        "description": "All my irritating habits? They come with the package. But at least now you can officially roll your eyes at your boyfriend."
+      },
+      {
+        "icon": "💪",
+        "title": "I'll be your biggest fan",
+        "description": "Whatever you want to do, whoever you want to be — I'm in your corner. Always have been, always will be."
+      }
+    ],
+    "closingNote": "Look, I'm not perfect. I have flaws. I can be annoying, dramatic, and occasionally too much. But I can promise you this: you will never wonder if you're loved. You'll never doubt if you matter. Because you do. More than you know."
+  }
+}

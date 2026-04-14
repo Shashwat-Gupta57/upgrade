@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apoorva, This Was Inevitable... 💕</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Pre-Entry Experience -->
+    <div class="pre-entry" id="preEntry">
+        <!-- Step 1: Initial Screen -->
+        <div class="entry-screen entry-screen-1 active" id="entryScreen1">
+            <div class="entry-particles" id="entryParticles"></div>
+            <div class="entry-card">
+                <div class="entry-gif-wrapper">
+                    <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcmhuNjJlYnJuc2UwdTZyZHQ0aWx6cDZtdHFscGVwMGxyNjViNm1xdiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/yFaVoocKapYwWjTqZ7/giphy.gif" alt="Love" class="entry-gif">
+                </div>
+                <div class="entry-text">
+                    <p class="typewriter-text" id="typewriterText1"></p>
+                    <p class="typewriter-text second" id="typewriterText2"></p>
+                </div>
+                <button class="entry-btn" id="openLetterBtn">
+                    <span>Open Letter</span>
+                    <span class="btn-icon">💌</span>
+                </button>
+            </div>
+        </div>
+
+        <!-- Step 2: Letter Screen -->
+        <div class="entry-screen entry-screen-2" id="entryScreen2">
+            <div class="letter-container">
+                <div class="letter-paper">
+                    <div class="letter-header">
+                        <span class="letter-date" id="letterDate"></span>
+                        <span class="letter-to">Dear Apoorva,</span>
+                    </div>
+                    <div class="letter-content" id="letterContent">
+                        <!-- Letter content will be dynamically generated -->
+                    </div>
+                    <div class="letter-footer">
+                        <span class="letter-signature">Forever yours,</span>
+                        <span class="letter-name">Shashwat 💕</span>
+                    </div>
+                </div>
+                <button class="entry-btn continue-btn" id="continueToSiteBtn">
+                    <span>Continue to the story</span>
+                    <span class="btn-icon">✨</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Animated Background -->
+    <div class="animated-bg">
+        <div class="gradient-layer"></div>
+        <div class="particles-container" id="particles"></div>
+        <div class="floating-hearts" id="floatingHearts"></div>
+    </div>
+
+    <!-- Loading Screen -->
+    <div class="loading-screen" id="loadingScreen">
+        <div class="loader">
+            <div class="heart-container">
+                <svg class="heart-svg" viewBox="0 0 32 32">
+                    <path class="heart-path" d="M16,28.261c0,0-14-7.926-14-17.046c0-3.557,2.885-6.441,6.441-6.441c2.162,0,4.131,1.069,5.313,2.798 C14.936,5.843,16.906,4.774,19.068,4.774C22.624,4.774,25.509,7.658,25.509,11.215C25.509,20.335,16,28.261,16,28.261z"/>
+                </svg>
+            </div>
+            <p class="loading-text">Preparing something special...</p>
+        </div>
+    </div>
+
+    <!-- Section 1: Landing Page -->
+    <section class="section landing-section" id="landing">
+        <div class="landing-content">
+            <div class="title-wrapper">
+                <span class="title-accent">Dear Apoorva,</span>
+                <h1 class="main-title">
+                    <span class="title-line">This Was</span>
+                    <span class="title-line highlight">Inevitable...</span>
+                </h1>
+            </div>
+            <p class="subtitle">
+                You know it. I know it. The universe knows it.<br>
+                <em>Let's stop pretending and make it official.</em>
+            </p>
+            <button class="cta-button" id="startJourney">
+                <span class="btn-text">Start This Journey</span>
+                <span class="btn-icon">✨</span>
+                <div class="btn-glow"></div>
+            </button>
+        </div>
+        
+        <div class="scroll-cue">
+            <div class="mouse-scroll">
+                <div class="mouse-dot"></div>
+            </div>
+            <span>Scroll to explore</span>
+        </div>
+
+        <!-- Floating Polaroids Preview -->
+        <div class="polaroid-preview">
+            <div class="polaroid polaroid-1">
+                <img src="" alt="Memory" class="polaroid-img">
+            </div>
+            <div class="polaroid polaroid-2">
+                <img src="" alt="Memory" class="polaroid-img">
+            </div>
+            <div class="polaroid polaroid-3">
+                <img src="" alt="Memory" class="polaroid-img">
+            </div>
+        </div>
+    </section>
+
+    <!-- Wave Divider -->
+    <div class="wave-divider wave-top">
+        <svg viewBox="0 0 1440 120" preserveAspectRatio="none">
+            <path d="M0,64 C480,150 960,-20 1440,64 L1440,120 L0,120 Z" fill="url(#wave-gradient)"/>
+            <defs>
+                <linearGradient id="wave-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                    <stop offset="0%" style="stop-color:rgba(255,107,157,0.1)"/>
+                    <stop offset="50%" style="stop-color:rgba(196,69,105,0.15)"/>
+                    <stop offset="100%" style="stop-color:rgba(255,107,157,0.1)"/>
+                </linearGradient>
+            </defs>
+        </svg>
+    </div>
+
+    <!-- Section 2: Memory Lane -->
+    <section class="section memory-section" id="memoryLane">
+        <div class="section-header">
+            <span class="section-tag">Chapter One</span>
+            <h2 class="section-title">Memory Lane</h2>
+            <p class="section-subtitle">A journey through us...</p>
+        </div>
+
+        <div class="memory-container">
+            <!-- Stacked Cards Carousel -->
+            <div class="stacked-carousel" id="stackedCarousel">
+                <div class="memory-card" id="memoryCard">
+                    <div class="card-inner">
+                        <div class="card-image-wrapper">
+                            <img src="" alt="Memory" class="card-image" id="currentMemoryImage">
+                            <div class="image-overlay"></div>
+                        </div>
+                        <div class="card-content">
+                            <p class="memory-text" id="memoryText"></p>
+                            <span class="memory-number" id="memoryNumber">01</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="carousel-nav">
+                <button class="nav-arrow prev" id="prevMemory">
+                    <svg viewBox="0 0 24 24"><path d="M15 18l-6-6 6-6"/></svg>
+                </button>
+                <div class="progress-dots" id="memoryDots"></div>
+                <button class="nav-arrow next" id="nextMemory">
+                    <svg viewBox="0 0 24 24"><path d="M9 18l6-6-6-6"/></svg>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Wave Divider -->
+    <div class="wave-divider wave-middle">
+        <svg viewBox="0 0 1440 120" preserveAspectRatio="none">
+            <path d="M0,32 C360,120 1080,-40 1440,32 L1440,0 L0,0 Z" fill="url(#wave-gradient-2)"/>
+            <defs>
+                <linearGradient id="wave-gradient-2" x1="0%" y1="0%" x2="100%" y2="0%">
+                    <stop offset="0%" style="stop-color:rgba(102,126,234,0.1)"/>
+                    <stop offset="50%" style="stop-color:rgba(118,75,162,0.15)"/>
+                    <stop offset="100%" style="stop-color:rgba(102,126,234,0.1)"/>
+                </linearGradient>
+            </defs>
+        </svg>
+    </div>
+
+    <!-- Section 3: Fun / Dark Humor -->
+    <section class="section fun-section" id="funSection">
+        <div class="floating-emoji-container" id="floatingEmojis"></div>
+        
+        <div class="section-header alt">
+            <span class="section-tag">Chapter Two</span>
+            <h2 class="section-title">Let's Be Real Here</h2>
+        </div>
+
+        <div class="fun-grid" id="funGrid">
+            <!-- Fun cards will be dynamically generated -->
+        </div>
+
+        <!-- Decorative Elements -->
+        <div class="decoration-dots"></div>
+    </section>
+
+    <!-- Section 4: Emotional Section -->
+    <section class="section emotional-section" id="emotionalSection">
+        <div class="emotional-wrapper">
+            <div class="emotional-image-side">
+                <div class="framed-image">
+                    <img src="" alt="Us" id="emotionalImage">
+                    <div class="frame-glow"></div>
+                </div>
+            </div>
+            
+            <div class="emotional-text-side">
+                <span class="section-tag">Chapter Three</span>
+                <h2 class="emotional-title" id="emotionalTitle"></h2>
+                <div class="emotional-paragraphs" id="emotionalParagraphs"></div>
+                <div class="emotional-messages" id="emotionalMessages"></div>
+                <p class="handshake-note" id="handshakeNote"></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Wave Divider -->
+    <div class="wave-divider wave-before-why">
+        <svg viewBox="0 0 1440 120" preserveAspectRatio="none">
+            <path d="M0,64 C480,150 960,-20 1440,64 L1440,120 L0,120 Z" fill="url(#wave-gradient-3)"/>
+            <defs>
+                <linearGradient id="wave-gradient-3" x1="0%" y1="0%" x2="100%" y2="0%">
+                    <stop offset="0%" style="stop-color:rgba(248,181,0,0.1)"/>
+                    <stop offset="50%" style="stop-color:rgba(255,107,157,0.15)"/>
+                    <stop offset="100%" style="stop-color:rgba(248,181,0,0.1)"/>
+                </linearGradient>
+            </defs>
+        </svg>
+    </div>
+
+    <!-- Section 4.5: Why Say Yes Section -->
+    <section class="section why-section" id="whySection">
+        <div class="why-wrapper">
+            <div class="section-header">
+                <span class="section-tag">Chapter Four</span>
+                <h2 class="section-title" id="whyTitle"></h2>
+                <p class="section-subtitle" id="whySubtitle"></p>
+            </div>
+            
+            <div class="reasons-grid" id="reasonsGrid"></div>
+            
+            <div class="closing-note" id="closingNote"></div>
+        </div>
+    </section>
+
+    <!-- Section 5: Build-Up -->
+    <section class="section buildup-section" id="buildupSection">
+        <div class="buildup-content">
+            <div class="buildup-lines">
+                <p class="buildup-line" data-delay="0">So the real question is...</p>
+                <p class="buildup-line" data-delay="300">After everything we've been through...</p>
+                <p class="buildup-line" data-delay="600">All those late night conversations...</p>
+                <p class="buildup-line" data-delay="900">All those "I love you"s...</p>
+                <p class="buildup-line final" data-delay="1200">Are you finally ready...</p>
+            </div>
+        </div>
+        
+        <!-- Parallax Background Images -->
+        <div class="parallax-images">
+            <div class="parallax-img img-1"><img src="" alt=""></div>
+            <div class="parallax-img img-2"><img src="" alt=""></div>
+            <div class="parallax-img img-3"><img src="" alt=""></div>
+        </div>
+    </section>
+
+    <!-- Section 6: Final Decision -->
+    <section class="section decision-section" id="decisionSection">
+        <div class="decision-wrapper">
+            <div class="decision-glow"></div>
+            
+            <h2 class="decision-question">
+                Will you upgrade me from
+                <div class="decision-roles">
+                    <span class="role from">Bestfriend</span>
+                    <span class="arrow">→</span>
+                    <span class="role to">Boyfriend</span>
+                </div>
+                <span class="question-mark">?</span>
+            </h2>
+
+            <div class="buttons-wrapper">
+                <button class="yes-btn" id="yesButton">
+                    <span class="btn-content">
+                        <span class="btn-emoji">💖</span>
+                        <span class="btn-text">YES! I always wanted you!</span>
+                    </span>
+                    <div class="btn-shine"></div>
+                </button>
+
+                <div class="reject-section">
+                    <p class="reject-hint">Or if you need more time to think...</p>
+                    <div class="reject-buttons" id="rejectButtons">
+                        <!-- Reject buttons will be dynamically generated -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- YES Response Overlay -->
+    <div class="overlay" id="yesOverlay">
+        <div class="overlay-bg"></div>
+        
+        <!-- Doubt Content -->
+        <div class="overlay-card doubt-card" id="doubtContent">
+            <div class="card-glass">
+                <h3 class="doubt-title" id="doubtTitle"></h3>
+                <p class="doubt-message" id="doubtMessage"></p>
+                <p class="doubt-question">So... what's it gonna be?</p>
+                
+                <div class="improve-options" id="improveButtons">
+                    <!-- Improve buttons will be generated -->
+                </div>
+
+                <div class="fallback-options">
+                    <p class="fallback-text">Or if you're having second thoughts...</p>
+                    <div class="fallback-buttons" id="secondThoughtsButtons">
+                        <!-- Reject buttons will be shown here -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Celebration Content -->
+        <div class="overlay-card celebration-card" id="celebrationContent" style="display: none;">
+            <div class="confetti-container" id="confetti"></div>
+            <div class="celebration-glass">
+                <div class="celebration-hearts">
+                    <span>💕</span><span>💖</span><span>💕</span>
+                </div>
+                <h2 class="celebration-title" id="celebrationTitle"></h2>
+                <p class="celebration-message" id="celebrationMessage"></p>
+                <p class="final-note" id="finalNote"></p>
+                <div class="celebration-icon">💝</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- NO Response Overlay -->
+    <div class="overlay" id="noOverlay">
+        <div class="overlay-bg"></div>
+        
+        <!-- Terms Content -->
+        <div class="overlay-card terms-card" id="termsContent">
+            <div class="card-glass">
+                <h3 class="terms-title" id="termsTitle"></h3>
+                <div class="terms-scroll" id="termsScroll">
+                    <!-- Terms will be generated -->
+                </div>
+                <button class="accept-btn" id="acceptTerms">
+                    <span></span>
+                </button>
+            </div>
+        </div>
+
+        <!-- Reassurance Content -->
+        <div class="overlay-card reassurance-card" id="reassuranceContent" style="display: none;">
+            <div class="card-glass">
+                <div class="reassurance-icon">💙</div>
+                <h3 class="reassurance-title" id="reassuranceTitle"></h3>
+                <p class="reassurance-message" id="reassuranceMessage"></p>
+                <button class="continue-btn" id="continueToFinal">
+                    <span>Continue</span>
+                    <span class="btn-heart">💙</span>
+                </button>
+            </div>
+        </div>
+
+        <!-- Final NO Content -->
+        <div class="overlay-card final-card" id="finalNoContent" style="display: none;">
+            <div class="card-glass">
+                <p class="final-paragraph" id="finalParagraph"></p>
+                <div class="friendship-badge">
+                    <span class="badge-icon">💙</span>
+                    <span class="badge-text">Best Friends Forever</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Floating Message Popup -->
+    <div class="floating-popup" id="floatingPopup">
+        <div class="floating-popup-content">
+            <span class="popup-close" id="popupClose">×</span>
+            <p class="popup-text" id="popupText"></p>
+        </div>
+    </div>
+
+    <!-- Fullscreen Soft Popup -->
+    <div class="fullscreen-popup" id="fullscreenPopup">
+        <div class="fullscreen-bg"></div>
+        <div class="fullscreen-content">
+            <p class="fullscreen-text" id="fullscreenText"></p>
+            <button class="popup-continue" id="fullscreenContinue">Continue</button>
+        </div>
+    </div>
+
+    <!-- Interrupt Moment Popup -->
+    <div class="interrupt-popup" id="interruptPopup">
+        <div class="interrupt-content">
+            <p class="interrupt-text" id="interruptText"></p>
+            <div class="typing-cursor">|</div>
+        </div>
+    </div>
+
+    <!-- GIF Popup Overlay -->
+    <div class="gif-popup-overlay" id="gifPopupOverlay">
+        <div class="gif-popup-card">
+            <button class="gif-popup-close" id="gifPopupClose">×</button>
+            <div class="gif-popup-image">
+                <img src="" alt="Popup" id="gifPopupImage">
+            </div>
+            <p class="gif-popup-text" id="gifPopupText"></p>
+        </div>
+    </div>
+
+    <!-- Fake System Alert -->
+    <div class="fake-alert" id="fakeAlert">
+        <div class="alert-box">
+            <div class="alert-header">
+                <span class="alert-icon">⚙️</span>
+                <span class="alert-title" id="alertTitle"></span>
+            </div>
+            <div class="alert-body">
+                <p class="alert-message" id="alertMessage"></p>
+                <div class="alert-progress">
+                    <div class="alert-progress-bar" id="alertProgress"></div>
+                </div>
+                <p class="alert-result" id="alertResult"></p>
+            </div>
+            <button class="alert-dismiss" id="alertDismiss">OK 😏</button>
+        </div>
+    </div>
+
+    <!-- Cursor Glow -->
+    <div class="cursor-glow" id="cursorGlow"></div>
+    
+    <!-- Scroll Progress Bar -->
+    <div class="scroll-progress">
+        <div class="scroll-progress-bar" id="scrollProgressBar"></div>
+    </div>
+
+    <!-- Firebase SDK -->
+    <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-database-compat.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
